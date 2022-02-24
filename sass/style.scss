@@ -293,9 +293,6 @@ footer {
   }
   .bw{
     display:none;
-   
-    
-
   }
   .links {
     display: flex;
@@ -311,7 +308,7 @@ footer {
       a {
         text-decoration: none;
         color: white;
-        font-size: 5vw;
+        font-size: 4vw;
         line-height: 14vw;
       }
     }
@@ -323,11 +320,11 @@ footer {
       padding-top: 2 * $heightPadding;
       padding-bottom: 2 * $heightPadding;
     }
-    h6 {
+    h2{
       padding-bottom: 2 * $heightPadding;
       padding-top: 2 * $heightPadding;
-      font-size: 5vw;
-      font-weight: 400;
+      font-size: 3vw;
+      font-weight: 500;
     }
     span {
       img {
@@ -337,7 +334,7 @@ footer {
       }
     }
   }
-  button {
+  .btnf1, .btnf2{
     width: 50vw;
     padding: $sidePadding;
     margin-bottom: 15px;
@@ -346,7 +343,7 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center;
-      p {
+      p{
         font-size: 12px;
       }
       span {
@@ -358,6 +355,7 @@ footer {
   .btnf1 {
     background-color: #ef9b11;
     border: #ef9b11;
+    
   }
   .btnf2 {
     background-color: white;
@@ -625,54 +623,109 @@ footer {
     .ft {
       display: flex;
       justify-content: space-evenly;
-    }
-    p {
-      font-size: 12px;
-      //line-height: 24px;
-      //min-width: 50vw;
+      h5 {
+        font-size: 1vw;
+        //line-height: 24px;
+        width: 20vw;
+        font-weight: 500;
+        padding-top: 20px;
+      }
+      p{
+        font-size: 1.5vw;
+        line-height:2.3vw;
+       width: 25vw;
+      }
     }
     .bw{
-      display:flexbox;
+      display:grid;
+      //width: 10vw;
+      padding: $sidePadding;
+     margin-bottom: 15px;
+      border-radius: 10px;
+      margin-left: -33px;
+      .but{
+        background-color: #ef9b11;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: #ef9b11;
+        width: 16vw;
+        div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+      }
+      .bitt{
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: white;
+        width: 16vw;
+        div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+        }
+      }
+
+          
+      
+     
     }
    
-    button {
+    .btnf{
       display: none;
     }
     .links {
       display: flex;
       justify-content: space-between;
-      width: 80px;
-      padding-top: 3 * $heightPadding;
+      width: 25vw;
+      margin-top: -11px;
+      
+    
       div {
         h4 {
-          font-size: 12px;
+          font-size: 1.5vw;
           color: #ef9b11;
         }
 
         a {
           text-decoration: none;
           color: white;
-          font-size: 12px;
+          font-size: 1.5vw;
           line-height: 14px;
+          line-height: 3.5vw;
+        
         }
       }
     }
     .contact {
       h4 {
         color: #ef9b11;
-        font-size: 12px;
+        font-size: 1.5vw;
         padding-top: 2 * $heightPadding;
         padding-bottom: 2 * $heightPadding;
+        
       }
       h6 {
-        padding-bottom: 2 * $heightPadding;
-        padding-top: 2 * $heightPadding;
-        font-size: 12px;
+       // padding-bottom: 2 * $heightPadding;
+       // padding-top: 2 * $heightPadding;
+        font-size: 1.5vw;
         font-weight: 400;
+        margin-top: -25px;
+        padding-top: 2.5 *$heightPadding;
+        padding-bottom: 1.5 * $heightPadding;
+      }
+      h2{
+        font-size: 1vw;
+        font-weight: 500;
+        padding-top: 14px;
+        padding-bottom: 14px;
       }
       span {
         img {
-          width: 12px;
+          width: 3vw;
           padding-bottom: 2 * $heightPadding;
           padding-left: $smallSpace;
         }

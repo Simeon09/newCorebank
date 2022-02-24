@@ -383,7 +383,7 @@ footer .links div h4 {
 footer .links div a {
   text-decoration: none;
   color: white;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 14vw;
 }
 
@@ -394,11 +394,11 @@ footer .contact h4 {
   padding-bottom: 4vh;
 }
 
-footer .contact h6 {
+footer .contact h2 {
   padding-bottom: 4vh;
   padding-top: 4vh;
-  font-size: 5vw;
-  font-weight: 400;
+  font-size: 3vw;
+  font-weight: 500;
 }
 
 footer .contact span img {
@@ -407,14 +407,14 @@ footer .contact span img {
   padding-left: 5px;
 }
 
-footer button {
+footer .btnf1, footer .btnf2 {
   width: 50vw;
   padding: 3vw;
   margin-bottom: 15px;
   border-radius: 10px;
 }
 
-footer button div {
+footer .btnf1 div, footer .btnf2 div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -426,11 +426,11 @@ footer button div {
           justify-content: center;
 }
 
-footer button div p {
+footer .btnf1 div p, footer .btnf2 div p {
   font-size: 12px;
 }
 
-footer button div span {
+footer .btnf1 div span, footer .btnf2 div span {
   font-size: 16px;
   font-weight: 700;
 }
@@ -756,13 +756,62 @@ footer .btnf2 {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  footer p {
-    font-size: 12px;
+  footer .ft h5 {
+    font-size: 1vw;
+    width: 20vw;
+    font-weight: 500;
+    padding-top: 20px;
+  }
+  footer .ft p {
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+    width: 25vw;
   }
   footer .bw {
-    display: flexbox;
+    display: -ms-grid;
+    display: grid;
+    padding: 3vw;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-left: -33px;
   }
-  footer button {
+  footer .bw .but {
+    background-color: #ef9b11;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: #ef9b11;
+    width: 16vw;
+  }
+  footer .bw .but div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .bw .bitt {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: white;
+    width: 16vw;
+  }
+  footer .bw .bitt div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 10px;
+  }
+  footer .btnf {
     display: none;
   }
   footer .links {
@@ -772,33 +821,41 @@ footer .btnf2 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 80px;
-    padding-top: 6vh;
+    width: 25vw;
+    margin-top: -11px;
   }
   footer .links div h4 {
-    font-size: 12px;
+    font-size: 1.5vw;
     color: #ef9b11;
   }
   footer .links div a {
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 1.5vw;
     line-height: 14px;
+    line-height: 3.5vw;
   }
   footer .contact h4 {
     color: #ef9b11;
-    font-size: 12px;
+    font-size: 1.5vw;
     padding-top: 4vh;
     padding-bottom: 4vh;
   }
   footer .contact h6 {
-    padding-bottom: 4vh;
-    padding-top: 4vh;
-    font-size: 12px;
+    font-size: 1.5vw;
     font-weight: 400;
+    margin-top: -25px;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+  footer .contact h2 {
+    font-size: 1vw;
+    font-weight: 500;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
   footer .contact span img {
-    width: 12px;
+    width: 3vw;
     padding-bottom: 4vh;
     padding-left: 5px;
   }
