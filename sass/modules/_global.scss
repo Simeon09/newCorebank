@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: $primaryfont;
+  width: 100%;
+  color: $textcolor;
+}
+// .content1 {
+//   @media only screen and (min-width: 903px) {
+//     p {
+//       font-size: 20px;
+//     }
+//     h5 {
+//       font-size: 40px;
+//     }
+//   }
+//   @media only screen and (min-width: 1154px) {
+//     p{
+//       font-size: 24px;
+//     }
+//     h5{
+//       font-size: 70px;
+//     }
+//     .display {
+//       display: none;
+//     }
+//   }
+// }
+  // .d2 {
+  //   @media only screen and(min-width:379px) {
+  //     width: 60%;
+  //   }
+  // }
+  
