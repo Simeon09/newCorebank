@@ -74,7 +74,7 @@ body {
 
 .section1 h5 {
   width: 40vw;
-  padding-left: 6vw;
+  padding-left: 3vw;
   padding-top: 4vh;
   font-size: 5vw;
 }
@@ -82,7 +82,7 @@ body {
 .section1 p {
   width: 80vw;
   font-size: 4vw;
-  padding-left: 6vw;
+  padding-left: 3vw;
   padding-top: 2vh;
   font-weight: 500;
 }
@@ -96,6 +96,16 @@ body {
 
 .section2 .display {
   display: none;
+}
+
+.section2 .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
 }
 
 .house {
@@ -125,6 +135,7 @@ body {
   width: 90vw;
   margin-left: 4vw;
   border-radius: 10px;
+  margin-bottom: 7px;
 }
 
 .section2_b ._d h5 {
@@ -341,7 +352,11 @@ body {
 
 .section5 .division .smalldiv p {
   width: 80vw;
-  font-size: 3vw;
+  font-size: 4vw;
+}
+
+.section5 .division .smalldiv .star img {
+  width: 30vw;
 }
 
 .section5 .div_5 {
@@ -354,6 +369,13 @@ footer {
   padding-left: 6vw;
   padding-right: 3vw;
   padding-top: 15px;
+}
+
+footer .first h5 {
+  font-weight: 500;
+  font-size: 4vw;
+  line-height: 7vw;
+  width: 80vw;
 }
 
 footer p {
@@ -392,6 +414,12 @@ footer .contact h4 {
   font-size: 6vw;
   padding-top: 4vh;
   padding-bottom: 4vh;
+}
+
+footer .contact h6 {
+  padding-bottom: 4vw;
+  font-weight: 500;
+  font-size: 4vw;
 }
 
 footer .contact h2 {
@@ -758,9 +786,10 @@ footer .btnf2 {
   }
   footer .ft h5 {
     font-size: 1vw;
+    line-height: 24px;
     width: 20vw;
     font-weight: 500;
-    padding-top: 20px;
+    padding-top: 35px;
   }
   footer .ft p {
     font-size: 1.5vw;
@@ -770,6 +799,7 @@ footer .btnf2 {
   footer .ft .first {
     margin-left: -6vw;
     margin-right: 40px;
+    padding-top: 15px;
   }
   footer .bw {
     display: -ms-grid;

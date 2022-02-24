@@ -33,14 +33,14 @@
   min-height: 40vw;
   h5 {
     width: 40vw;
-    padding-left: 2 * $sidePadding;
-    padding-top: 2 * $heightPadding;
+    padding-left:   $sidePadding;
+    padding-top: 2 *  $heightPadding;
     font-size: 5vw;
   }
   p {
     width: 80vw;
     font-size: 4vw;
-    padding-left: 2 * $sidePadding;
+    padding-left:  $sidePadding;
     padding-top: $heightPadding;
     font-weight: 500;
   }
@@ -53,6 +53,11 @@
   //height: 70vw;
   .display {
     display: none;
+  }
+  .line{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
   }
 }
 .house {
@@ -78,7 +83,7 @@
     width: 90vw;
     margin-left: 4vw;
     border-radius: 10px;
-    //padding-bottom: 40px;
+    margin-bottom: 7px;
 
     h5 {
       padding-left: 3 * $sidePadding;
@@ -258,7 +263,12 @@
       }
       p {
         width: 80vw;
-        font-size: 3vw;
+        font-size: 4vw;
+      }
+      
+        .star img{
+          width: 30vw;
+      
       }
     }
     // div{
@@ -286,6 +296,14 @@ footer {
   padding-left: 2 * $sidePadding;
   padding-right: $sidePadding;
   padding-top: 15px;
+  .first{
+    h5{
+      font-weight: 500;
+      font-size: 4vw;
+      line-height: 7vw;
+      width: 80vw;
+    }
+  }
   p {
     font-size: 4vw;
     //line-height: 24px;
@@ -319,6 +337,11 @@ footer {
       font-size: 6vw;
       padding-top: 2 * $heightPadding;
       padding-bottom: 2 * $heightPadding;
+    }
+    h6{
+      padding-bottom: 4vw;
+      font-weight: 500;
+      font-size: 4vw;
     }
     h2{
       padding-bottom: 2 * $heightPadding;
@@ -625,10 +648,10 @@ footer {
       justify-content: space-evenly;
       h5 {
         font-size: 1vw;
-        //line-height: 24px;
+        line-height: 24px;
         width: 20vw;
         font-weight: 500;
-        padding-top: 20px;
+        padding-top: 35px;
       }
       p{
         font-size: 1.5vw;
@@ -638,6 +661,7 @@ footer {
       .first{
       margin-left: -6vw;
         margin-right: 40px;
+        padding-top: 15px;
       }
     }
     .bw{
