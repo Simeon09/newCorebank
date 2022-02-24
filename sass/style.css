@@ -767,13 +767,17 @@ footer .btnf2 {
     line-height: 2.3vw;
     width: 25vw;
   }
+  footer .ft .first {
+    margin-left: -6vw;
+    margin-right: 40px;
+  }
   footer .bw {
     display: -ms-grid;
     display: grid;
     padding: 3vw;
     margin-bottom: 15px;
     border-radius: 10px;
-    margin-left: -33px;
+    margin-left: -3vw;
   }
   footer .bw .but {
     background-color: #ef9b11;

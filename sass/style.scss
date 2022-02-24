@@ -635,6 +635,10 @@ footer {
         line-height:2.3vw;
        width: 25vw;
       }
+      .first{
+      margin-left: -6vw;
+        margin-right: 40px;
+      }
     }
     .bw{
       display:grid;
@@ -642,7 +646,7 @@ footer {
       padding: $sidePadding;
      margin-bottom: 15px;
       border-radius: 10px;
-      margin-left: -33px;
+      margin-left: -3vw;
       .but{
         background-color: #ef9b11;
         margin-bottom: 20px;
