@@ -584,16 +584,16 @@ footer .btnf2 {
   .section2 .display .div1 {
     -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
-    width: 15vw;
-    height: 15vw;
+    width: 14vw;
+    height: 13vw;
     background-color: #ffff;
-    padding-left: 2vw;
+    padding-left: 1vw;
     padding-top: 2vw;
   }
   .section2 .display .div1 h4 {
     font-size: 2vw;
     line-height: 4vw;
-    padding-top: 1.5vw;
+    padding-top: 0.5vw;
   }
   .house {
     padding-top: 16vh;
@@ -762,7 +762,6 @@ footer .btnf2 {
     -webkit-box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
             box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
     width: 30%;
-    height: 20vw;
     padding: 20px;
     border-radius: 10px;
   }
