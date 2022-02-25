@@ -11,16 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,700&family=Source+Serif+Pro:wght@600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/sass/style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+        <link rel="stylesheet" href="/sass/animate.min.css">
+        <link rel="stylesheet" href="/sass/style.css">
+        <script src="/sass/js.wow.min.js"></script>
 
 </head>
 
 <body>
-    <header class=" animate__animated animate__slideInLeft animate__slow	2s" >
+    <header class="wow animate__animated animate__slideInLeft" >
         <section class="header1">
             <span class="span">
                 <div><img src="/sass/images/padlock.png" alt="padlock">Open An Account</div>
@@ -68,7 +66,7 @@
         </section>
 
     </header>
-    <main class="animate__animated animate__fadeInUp animate__slow	2s    ">
+    <main >
 
 
 
@@ -87,7 +85,7 @@
 
         </section>
 
-        <div class="section2">
+        <div class="section2 wow animate__animated animate__slideInUp">
 
             <div class="display">
 
@@ -160,7 +158,7 @@
             <div class="line"><img src="/sass/images/line.png" alt=""></div>
         </div>
 
-        <section class="section3">
+        <section class="section3 wow animate__animated animate__slideInUp">
             <div class="sec3_a">
                 <img src="/sass/images/ladyphone.svg" alt="lady with phone">
             </div>
@@ -174,7 +172,7 @@
                 <div class="btn2">Open E-Banking</div>
             </div>
         </section>
-        <section class="section4">
+        <section class="section4  wow animate__animated animate__slideInUp">
 
             <div class="phone"><img src="/sass/images/phone.phone crop.png" alt="phone"></div>
             <div class="none_p"><img src="/sass/images/phoneimg.crop.png" alt="phone"></div>
@@ -199,7 +197,7 @@
             </div>
 
         </section>
-        <section class="section5">
+        <section class="section5  wow animate__animated animate__slideInRight">
             <div>
                 <span>
                     <img src="/sass/images/rectangle.png" alt="rec">
@@ -272,7 +270,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer class=" wow animate__animated animate__slideInLeft">
         <div class="ft">
 
             <div class="first">
@@ -382,6 +380,25 @@
 
 
     </footer>
+    <script>     
+        var wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animate__animated', // animation css class (default is animated)
+                offset: 0,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                resetAnimation: false,     // reset animation on end (default is true)
+            }
+        );
+        wow.init();
+    </script>
+
 </body>
 
 </html>
