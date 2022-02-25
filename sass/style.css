@@ -276,7 +276,7 @@ body {
 }
 
 .section4 .phone img {
-  min-width: 50vw;
+  width: 49vw;
   height: auto;
   padding-top: 1em;
   padding-left: 3vw;
@@ -291,6 +291,10 @@ body {
 .section4 .app h6 {
   color: #eab221;
   font-weight: 700;
+}
+
+.section4 .app h4 {
+  font-size: 14px;
 }
 
 .section5 {
