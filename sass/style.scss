@@ -390,6 +390,35 @@ footer {
     background-color: white;
   }
 }
+// header{
+//   position: fixed;
+//   width: 100%;
+//   .header2{
+//     background-color: #fff;
+//   }
+  
+//}
+.none.responsive{
+  display: block;
+  position: absolute;
+  background-color: #8a8080ed;
+  margin-top: 240px;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  left: 0;
+    ul{
+      list-style-type: none;
+      
+    }
+    @media only screen and (min-width: 962px) {
+      display: none;
+    }
+  
+}
 @media only screen and (min-width: 962px) {
   .header1 {
     color: white;
@@ -415,6 +444,7 @@ footer {
     .none {
       @include flex;
       //justify-content: space-around;
+      display: none;
     }
     nav {
       ul {

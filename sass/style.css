@@ -476,6 +476,32 @@ footer .btnf2 {
   background-color: white;
 }
 
+.none.responsive {
+  display: block;
+  position: absolute;
+  background-color: #8a8080ed;
+  margin-top: 240px;
+  text-align: center;
+  width: 100%;
+  line-height: 45px;
+  color: white;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0;
+}
+
+.none.responsive ul {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 962px) {
+  .none.responsive {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 962px) {
   .header1 {
     color: white;
@@ -514,6 +540,7 @@ footer .btnf2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    display: none;
   }
   .header2 nav ul {
     list-style-type: none;
